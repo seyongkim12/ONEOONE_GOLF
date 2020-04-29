@@ -179,7 +179,7 @@
                             </ui:TypeSecureText>
                             <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SpecialKey="{x:Null}" Activate="True" DisplayName="Send Hotkey 'editable text  텍스트 편집'" sap:VirtualizedContainerService.HintSize="333.6,156" sap2010:WorkflowViewState.IdRef="SendHotkey_3" Key="a" KeyModifiers="Ctrl">
                               <ui:SendHotkey.Target>
-                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="38ecd9a3a6d63ffa240d1a6ae4bee9b9" Selector="&lt;wnd app='notepad.exe' cls='Notepad' title='*제목 없음 - Windows 메모장' /&gt;&lt;wnd aaname='가로' cls='Edit' /&gt;&lt;ctrl name='텍스트 편집' role='editable text' /&gt;">
+                                <ui:Target ClippingRegion="{x:Null}" Selector="{x:Null}" Element="[NoteForPassword]" InformativeScreenshot="38ecd9a3a6d63ffa240d1a6ae4bee9b9">
                                   <ui:Target.TimeoutMS>
                                     <InArgument x:TypeArguments="x:Int32" />
                                   </ui:Target.TimeoutMS>
@@ -191,7 +191,7 @@
                             </ui:SendHotkey>
                             <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SpecialKey="{x:Null}" Activate="True" DisplayName="Send Hotkey 'editable text  텍스트 편집'" sap:VirtualizedContainerService.HintSize="333.6,156" sap2010:WorkflowViewState.IdRef="SendHotkey_4" Key="c" KeyModifiers="Ctrl">
                               <ui:SendHotkey.Target>
-                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" InformativeScreenshot="38ecd9a3a6d63ffa240d1a6ae4bee9b9" Selector="&lt;wnd app='notepad.exe' cls='Notepad' title='*제목 없음 - Windows 메모장' /&gt;&lt;wnd aaname='가로' cls='Edit' /&gt;&lt;ctrl name='텍스트 편집' role='editable text' /&gt;">
+                                <ui:Target ClippingRegion="{x:Null}" Selector="{x:Null}" Element="[NoteForPassword]" InformativeScreenshot="38ecd9a3a6d63ffa240d1a6ae4bee9b9">
                                   <ui:Target.TimeoutMS>
                                     <InArgument x:TypeArguments="x:Int32" />
                                   </ui:Target.TimeoutMS>
