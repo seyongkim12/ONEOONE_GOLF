@@ -66,7 +66,7 @@
       <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Ladena_Main" sap:VirtualizedContainerService.HintSize="420,436.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Lakeside_Main" sap:VirtualizedContainerService.HintSize="420,436.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Default="[DataDT]" Name="DataDT" />
     </Sequence.Variables>
@@ -75,14 +75,14 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke Workflow File - Login" sap:VirtualizedContainerService.HintSize="378.4,88" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="[in_ProjectPath+&quot;\ONEOONE&quot;+&quot;\Lakes\Lakes_Login.xaml&quot;]">
+    <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke Workflow File - Login" sap:VirtualizedContainerService.HintSize="378.4,88" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="[in_ProjectPath+&quot;\ONEOONE&quot;+&quot;\Lakeside\Lakeside_Login.xaml&quot;]">
       <ui:InvokeWorkflowFile.Arguments>
         <InArgument x:TypeArguments="x:String" x:Key="URL">[URL]</InArgument>
         <InArgument x:TypeArguments="x:String" x:Key="Username">[UserName]</InArgument>
         <InArgument x:TypeArguments="ss:SecureString" x:Key="Password">[Password]</InArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
-    <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke Workflow File - Reservation" sap:VirtualizedContainerService.HintSize="378.4,88" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="[in_ProjectPath+&quot;\ONEOONE&quot;+&quot;\Lakes\Lakes_Reservation.xaml&quot;]">
+    <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke Workflow File - Reservation" sap:VirtualizedContainerService.HintSize="378.4,88" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="[in_ProjectPath+&quot;\ONEOONE&quot;+&quot;\Lakeside\Lakeside_Reservation.xaml&quot;]">
       <ui:InvokeWorkflowFile.Arguments>
         <InArgument x:TypeArguments="x:Int32" x:Key="Period">[CInt(Period)]</InArgument>
         <OutArgument x:TypeArguments="sd:DataTable" x:Key="DataDT">[DataDT]</OutArgument>
