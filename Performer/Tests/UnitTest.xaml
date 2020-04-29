@@ -65,21 +65,18 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text" sap:VirtualizedContainerService.HintSize="333.6,68.8" sap2010:WorkflowViewState.IdRef="GetValue_3">
+    <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text" sap:VirtualizedContainerService.HintSize="333.6,68.8" sap2010:WorkflowViewState.IdRef="GetValue_5">
       <ui:GetValue.Target>
-        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="&lt;html title='라비에벨 컨트리클럽' /&gt;&lt;webctrl parentid='cm_time_live_info' tag='TBODY' /&gt;&lt;webctrl id='tiemlist_date' tag='SPAN' /&gt;">
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="&lt;html title='레이크사이드 컨트리클럽' /&gt;&lt;webctrl parentid='tab5' tag='TABLE' /&gt;&lt;webctrl tag='TD' /&gt;" WaitForReady="COMPLETE">
           <ui:Target.TimeoutMS>
             <InArgument x:TypeArguments="x:Int32" />
           </ui:Target.TimeoutMS>
-          <ui:Target.WaitForReady>
-            <InArgument x:TypeArguments="ui:WaitForReady" />
-          </ui:Target.WaitForReady>
         </ui:Target>
       </ui:GetValue.Target>
       <ui:GetValue.Value>
         <OutArgument x:TypeArguments="x:String">[testStr]</OutArgument>
       </ui:GetValue.Value>
     </ui:GetValue>
-    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="333.6,62.4" sap2010:WorkflowViewState.IdRef="WriteLine_4" Text="[testStr]" />
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="333.6,62.4" sap2010:WorkflowViewState.IdRef="WriteLine_7" Text="[testStr]" />
   </Sequence>
 </Activity>
