@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Golfsamsung_Main" this:Golfsamsung_Main.Password="[New System.net.NetworkCredential(&quot;&quot;,&quot;Rparpa123!&quot;).SecurePassword]" this:Golfsamsung_Main.FileDir="C:\Users\user\Documents\UiPath\Performer\ResultFile" this:Golfsamsung_Main.SiteName="신라" this:Golfsamsung_Main.Period="15" this:Golfsamsung_Main.URL="https://shilla.kmhleisure.com/Shilla/Default.aspx" this:Golfsamsung_Main.UserName="jtkim72" this:Golfsamsung_Main.in_ProjectPath="[Environment.CurrentDirectory]" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ss="clr-namespace:System.Security;assembly=mscorlib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Shilla_Main" this:Shilla_Main.Password="[New System.net.NetworkCredential(&quot;&quot;,&quot;Rparpa123!&quot;).SecurePassword]" this:Shilla_Main.FileDir="C:\Users\user\Documents\UiPath\Performer\ResultFile" this:Shilla_Main.SiteName="신라" this:Shilla_Main.Period="15" this:Shilla_Main.URL="https://shilla.kmhleisure.com/Shilla/Default.aspx" this:Shilla_Main.UserName="jtkim72" this:Shilla_Main.in_ProjectPath="[Environment.CurrentDirectory]" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ss="clr-namespace:System.Security;assembly=mscorlib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="Password" Type="InArgument(ss:SecureString)" />
     <x:Property Name="FileDir" Type="InArgument(x:String)" />
@@ -12,7 +12,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>440,496.8</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>440,536.8</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>FerrumClub_Main_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -63,10 +63,9 @@
       <AssemblyReference>System.ValueTuple</AssemblyReference>
       <AssemblyReference>System.ServiceModel</AssemblyReference>
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Ladena_Main" sap:VirtualizedContainerService.HintSize="420,436.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Shilla_Main" sap:VirtualizedContainerService.HintSize="420,436.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Default="[DataDT]" Name="DataDT" />
     </Sequence.Variables>
