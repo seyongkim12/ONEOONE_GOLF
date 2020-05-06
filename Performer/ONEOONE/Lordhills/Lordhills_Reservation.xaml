@@ -68,7 +68,6 @@
       <Variable x:TypeArguments="x:String" Name="targetNum" />
       <Variable x:TypeArguments="x:Int32" Default="0" Name="loopCount" />
       <Variable x:TypeArguments="ui:UiElement" Name="clickElement" />
-      <Variable x:TypeArguments="x:Boolean" Name="flag" />
       <Variable x:TypeArguments="x:Int32" Default="1" Name="CilckNextCalendar" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>

@@ -97,9 +97,6 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
             <While sap2010:Annotation.AnnotationText="슬랙터 고쳐용&#xA;" sap:VirtualizedContainerService.HintSize="804.8,2073.6" sap2010:WorkflowViewState.IdRef="While_2">
-              <While.Variables>
-                <Variable x:TypeArguments="x:Boolean" Name="flag" />
-              </While.Variables>
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -791,7 +788,6 @@
                               </Sequence>
                               <Sequence x:Key="9홀코스" DisplayName="Data Scraping TB_7" sap:VirtualizedContainerService.HintSize="241.6,238.4" sap2010:WorkflowViewState.IdRef="Sequence_71">
                                 <Sequence.Variables>
-                                  <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="ExtractDataTable_2" />
                                   <Variable x:TypeArguments="sd:DataTable" Name="ExtractDataTable_1" />
                                   <Variable x:TypeArguments="x:String" Name="switchStr" />
                                 </Sequence.Variables>

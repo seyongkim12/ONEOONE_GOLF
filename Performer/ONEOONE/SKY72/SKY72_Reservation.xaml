@@ -63,8 +63,6 @@
       <Variable x:TypeArguments="s:DateTime" Name="EndDate" />
       <Variable x:TypeArguments="ui:Browser" Name="SKY72" />
       <Variable x:TypeArguments="x:Int32" Default="0" Name="IndexNum1" />
-      <Variable x:TypeArguments="x:Int32" Default="0" Name="IndexNum2" />
-      <Variable x:TypeArguments="x:String" Name="InputString2" />
       <Variable x:TypeArguments="x:String" Name="InputString1" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
@@ -725,9 +723,6 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                   <Sequence DisplayName="데이터 스크래핑" sap:VirtualizedContainerService.HintSize="705.6,1363.2" sap2010:WorkflowViewState.IdRef="Sequence_86">
-                                    <Sequence.Variables>
-                                      <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="ExtractDataTable" />
-                                    </Sequence.Variables>
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -766,7 +761,6 @@
                                                   </ActivityAction.Argument>
                                                   <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="539.2,734.4" sap2010:WorkflowViewState.IdRef="Sequence_84">
                                                     <Sequence.Variables>
-                                                      <Variable x:TypeArguments="x:String" Name="InputString1" />
                                                       <Variable x:TypeArguments="x:Int32" Name="IndexNum2" />
                                                       <Variable x:TypeArguments="x:String" Name="InputString2" />
                                                     </Sequence.Variables>
@@ -834,7 +828,6 @@
                                                       </Assign>
                                                       <Sequence x:Key="0" sap:VirtualizedContainerService.HintSize="304.8,215.2" sap2010:WorkflowViewState.IdRef="Sequence_83">
                                                         <Sequence.Variables>
-                                                          <Variable x:TypeArguments="s:String[]" Name="InputData1" />
                                                           <Variable x:TypeArguments="s:String[]" Name="InputData2" />
                                                         </Sequence.Variables>
                                                         <sap:WorkflowViewStateService.ViewState>
@@ -900,9 +893,6 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                   <Sequence DisplayName="데이터 스크래핑" sap:VirtualizedContainerService.HintSize="705.6,1363.2" sap2010:WorkflowViewState.IdRef="Sequence_95">
-                                    <Sequence.Variables>
-                                      <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="ExtractDataTable" />
-                                    </Sequence.Variables>
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -917,7 +907,6 @@
                                           </ActivityAction.Argument>
                                           <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="630.4,1123.2" sap2010:WorkflowViewState.IdRef="Sequence_94">
                                             <Sequence.Variables>
-                                              <Variable x:TypeArguments="sd:DataTable" Name="ExtractDataTable2" />
                                               <Variable x:TypeArguments="sd:DataTable" Name="ExtractDataTable3" />
                                             </Sequence.Variables>
                                             <sap:WorkflowViewStateService.ViewState>
@@ -942,7 +931,6 @@
                                                   </ActivityAction.Argument>
                                                   <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="539.2,734.4" sap2010:WorkflowViewState.IdRef="Sequence_93">
                                                     <Sequence.Variables>
-                                                      <Variable x:TypeArguments="x:String" Name="InputString1" />
                                                       <Variable x:TypeArguments="x:Int32" Name="IndexNum2" />
                                                       <Variable x:TypeArguments="x:String" Name="InputString2" />
                                                     </Sequence.Variables>
@@ -1010,7 +998,6 @@
                                                       </Assign>
                                                       <Sequence x:Key="0" sap:VirtualizedContainerService.HintSize="304.8,215.2" sap2010:WorkflowViewState.IdRef="Sequence_92">
                                                         <Sequence.Variables>
-                                                          <Variable x:TypeArguments="s:String[]" Name="InputData1" />
                                                           <Variable x:TypeArguments="s:String[]" Name="InputData2" />
                                                         </Sequence.Variables>
                                                         <sap:WorkflowViewStateService.ViewState>

@@ -69,7 +69,6 @@
       <Variable x:TypeArguments="x:String" Name="targetNum" />
       <Variable x:TypeArguments="x:Int32" Default="1" Name="loopCount" />
       <Variable x:TypeArguments="ui:UiElement" Name="clickElement" />
-      <Variable x:TypeArguments="x:Boolean" Name="flag" />
       <Variable x:TypeArguments="x:Int32" Default="1" Name="CilckNextCalendar" />
       <Variable x:TypeArguments="ui:Browser" Name="Bearsbest" />
     </Sequence.Variables>
@@ -247,7 +246,6 @@
                       </sap:WorkflowViewStateService.ViewState>
                       <Sequence DisplayName="Data Scraping" sap:VirtualizedContainerService.HintSize="2438.4,1159.2" sap2010:WorkflowViewState.IdRef="Sequence_32">
                         <Sequence.Variables>
-                          <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="ExtractDataTable" />
                           <Variable x:TypeArguments="x:String" Name="testStr" />
                         </Sequence.Variables>
                         <sap:WorkflowViewStateService.ViewState>
@@ -318,7 +316,6 @@
                                         <If.Else>
                                           <Sequence sap:VirtualizedContainerService.HintSize="375.2,715.2" sap2010:WorkflowViewState.IdRef="Sequence_35">
                                             <Sequence.Variables>
-                                              <Variable x:TypeArguments="x:String" Name="salePrice" />
                                               <Variable x:TypeArguments="x:String" Name="discountFee" />
                                               <Variable x:TypeArguments="x:String" Name="price" />
                                               <Variable x:TypeArguments="x:String" Name="hole" />
