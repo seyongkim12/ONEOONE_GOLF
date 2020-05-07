@@ -6,7 +6,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1117.6,3072</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1117.6,3009.6</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>FerrumClub_Reservation_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="22">
@@ -63,7 +63,7 @@
       <x:Boolean x:Key="ShouldCollapseAll">False</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence sap2010:Annotation.AnnotationText="" DisplayName="Shilla_Reservation" sap:VirtualizedContainerService.HintSize="1097.6,3012" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="" DisplayName="Shilla_Reservation" sap:VirtualizedContainerService.HintSize="1097.6,2949.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="targetNum" />
       <Variable x:TypeArguments="x:Int32" Default="1" Name="loopCount" />
@@ -84,19 +84,19 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:BuildDataTable>
-    <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="IE" DisplayName="Attach Browser " sap:VirtualizedContainerService.HintSize="1056,2744" sap2010:WorkflowViewState.IdRef="BrowserScope_7" InformativeScreenshot="5f84bc0c168d9671432526eccdc67584" Selector="&lt;html htmlwindowname='Parent_window' title='KMH 레저' /&gt;">
+    <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="IE" DisplayName="Attach Browser " sap:VirtualizedContainerService.HintSize="1056,2681.6" sap2010:WorkflowViewState.IdRef="BrowserScope_7" InformativeScreenshot="5f84bc0c168d9671432526eccdc67584" Selector="&lt;html htmlwindowname='Parent_window' title='KMH 레저' /&gt;">
       <ui:BrowserScope.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1022.4,2596.8" sap2010:WorkflowViewState.IdRef="Sequence_30">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1022.4,2534.4" sap2010:WorkflowViewState.IdRef="Sequence_30">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <While sap2010:Annotation.AnnotationText="슬랙터 고쳐용&#xA;" sap:VirtualizedContainerService.HintSize="980.8,2504" sap2010:WorkflowViewState.IdRef="While_2">
+            <While sap2010:Annotation.AnnotationText="슬랙터 고쳐용&#xA;" sap:VirtualizedContainerService.HintSize="980.8,2441.6" sap2010:WorkflowViewState.IdRef="While_2">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -107,7 +107,7 @@
               <While.Condition>
                 <mva:VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="loopCount &lt;= Period" sap2010:WorkflowViewState.IdRef="VisualBasicValue`1_3" />
               </While.Condition>
-              <Sequence sap:VirtualizedContainerService.HintSize="936,2300.8" sap2010:WorkflowViewState.IdRef="Sequence_17">
+              <Sequence sap:VirtualizedContainerService.HintSize="936,2238.4" sap2010:WorkflowViewState.IdRef="Sequence_17">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -177,7 +177,7 @@
                     </ui:FindText>
                   </If.Else>
                 </If>
-                <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" sap:VirtualizedContainerService.HintSize="894.4,68.8" sap2010:WorkflowViewState.IdRef="Click_5" KeyModifiers="None" MouseButton="BTN_LEFT">
+                <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DelayMS="2000" sap:VirtualizedContainerService.HintSize="894.4,68.8" sap2010:WorkflowViewState.IdRef="Click_5" KeyModifiers="None" MouseButton="BTN_LEFT">
                   <ui:Click.CursorPosition>
                     <ui:CursorPosition Position="Center">
                       <ui:CursorPosition.OffsetX>
@@ -196,7 +196,6 @@
                     </ui:Target>
                   </ui:Click.Target>
                 </ui:Click>
-                <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="894.4,22.4" sap2010:WorkflowViewState.IdRef="Delay_1" />
                 <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="894.4,52.8" sap2010:WorkflowViewState.IdRef="CommentOut_1">
                   <ui:CommentOut.Body>
                     <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="375.2,200" sap2010:WorkflowViewState.IdRef="Sequence_35">
