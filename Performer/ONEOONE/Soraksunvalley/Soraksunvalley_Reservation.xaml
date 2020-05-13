@@ -6,7 +6,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1132.8,3552.8</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1132.8,3450.4</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>FerrumClub_Reservation_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="22">
@@ -64,7 +64,7 @@
       <x:Boolean x:Key="ShouldCollapseAll">False</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence sap2010:Annotation.AnnotationText="" DisplayName="Soraksunvalley_Reservation" sap:VirtualizedContainerService.HintSize="1112.8,3492.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="" DisplayName="Soraksunvalley_Reservation" sap:VirtualizedContainerService.HintSize="1112.8,3390.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="targetNum" />
       <Variable x:TypeArguments="x:Int32" Default="1" Name="loopCount" />
@@ -85,19 +85,19 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:BuildDataTable>
-    <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" BrowserType="IE" DisplayName="Attach Browser " sap:VirtualizedContainerService.HintSize="1071.2,3224.8" sap2010:WorkflowViewState.IdRef="BrowserScope_7" InformativeScreenshot="884cd87f76c48b5503481f781f5a6749" Selector="&lt;html title='::: SORAK SUN VALLEY GOLF RESORT :::' /&gt;" UiBrowser="[dateBrowser]">
+    <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" BrowserType="IE" DisplayName="Attach Browser " sap:VirtualizedContainerService.HintSize="1071.2,3122.4" sap2010:WorkflowViewState.IdRef="BrowserScope_7" InformativeScreenshot="884cd87f76c48b5503481f781f5a6749" Selector="&lt;html title='::: SORAK SUN VALLEY GOLF RESORT :::' /&gt;" UiBrowser="[dateBrowser]">
       <ui:BrowserScope.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1037.6,3077.6" sap2010:WorkflowViewState.IdRef="Sequence_30">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1037.6,2975.2" sap2010:WorkflowViewState.IdRef="Sequence_30">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <While sap2010:Annotation.AnnotationText="슬랙터 고쳐용&#xA;" sap:VirtualizedContainerService.HintSize="996,2984.8" sap2010:WorkflowViewState.IdRef="While_2">
+            <While sap2010:Annotation.AnnotationText="슬랙터 고쳐용&#xA;" sap:VirtualizedContainerService.HintSize="996,2882.4" sap2010:WorkflowViewState.IdRef="While_2">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -108,7 +108,7 @@
               <While.Condition>
                 <mva:VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="loopCount &lt;= Period" sap2010:WorkflowViewState.IdRef="VisualBasicValue`1_3" />
               </While.Condition>
-              <Sequence DisplayName="ResultStr" sap:VirtualizedContainerService.HintSize="951.2,2781.6" sap2010:WorkflowViewState.IdRef="Sequence_17">
+              <Sequence DisplayName="ResultStr" sap:VirtualizedContainerService.HintSize="951.2,2679.2" sap2010:WorkflowViewState.IdRef="Sequence_17">
                 <Sequence.Variables>
                   <Variable x:TypeArguments="x:String" Default="마감" Name="resultStr" />
                 </Sequence.Variables>
@@ -233,7 +233,7 @@
                     </Sequence>
                   </If.Else>
                 </If>
-                <If Condition="[&quot;마감&quot;.Equals(resultStr)]" sap:VirtualizedContainerService.HintSize="909.6,2336" sap2010:WorkflowViewState.IdRef="If_11">
+                <If Condition="[&quot;마감&quot;.Equals(resultStr)]" sap:VirtualizedContainerService.HintSize="909.6,2233.6" sap2010:WorkflowViewState.IdRef="If_11">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -241,7 +241,7 @@
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                   <If.Else>
-                    <Sequence DisplayName="Data Scraping" sap:VirtualizedContainerService.HintSize="765.6,2186.4" sap2010:WorkflowViewState.IdRef="Sequence_36">
+                    <Sequence DisplayName="Data Scraping" sap:VirtualizedContainerService.HintSize="765.6,2084" sap2010:WorkflowViewState.IdRef="Sequence_36">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -260,7 +260,7 @@
                         </ui:Click.Target>
                       </ui:Click>
                       <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="724,22.4" sap2010:WorkflowViewState.IdRef="Delay_1" />
-                      <Sequence DisplayName="Create Table" sap:VirtualizedContainerService.HintSize="724,1695.2" sap2010:WorkflowViewState.IdRef="Sequence_41">
+                      <Sequence DisplayName="Create Table" sap:VirtualizedContainerService.HintSize="724,1592.8" sap2010:WorkflowViewState.IdRef="Sequence_41">
                         <Sequence.Variables>
                           <Variable x:TypeArguments="s:String[]" Default="[{&quot;설악 코스&quot;,&quot;썬 코스&quot;,&quot;밸리 코스&quot;}]" Name="scrapingArray" />
                           <Variable x:TypeArguments="x:Int32" Name="innerPeriod" />
@@ -310,19 +310,19 @@
                             <InArgument x:TypeArguments="x:Int32">[ExtractDataTable.Rows.Count]</InArgument>
                           </Assign.Value>
                         </Assign>
-                        <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="682.4,1409.6" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[scrapingArray]">
+                        <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="682.4,1307.2" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[scrapingArray]">
                           <ui:ForEach.Body>
                             <ActivityAction x:TypeArguments="x:String">
                               <ActivityAction.Argument>
                                 <DelegateInArgument x:TypeArguments="x:String" Name="course" />
                               </ActivityAction.Argument>
-                              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="647.2,1275.2" sap2010:WorkflowViewState.IdRef="Sequence_43">
+                              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="647.2,1172.8" sap2010:WorkflowViewState.IdRef="Sequence_43">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <While sap:VirtualizedContainerService.HintSize="605.6,1182.4" sap2010:WorkflowViewState.IdRef="While_3">
+                                <While sap:VirtualizedContainerService.HintSize="605.6,1080" sap2010:WorkflowViewState.IdRef="While_3">
                                   <While.Variables>
                                     <Variable x:TypeArguments="x:String" Default="마감" Name="innerResultStr" />
                                     <Variable x:TypeArguments="x:Int32" Default="1" Name="innerLoopCount" />
@@ -336,7 +336,7 @@
                                   <While.Condition>
                                     <mva:VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="innerLoopCount &lt;= innerPeriod" sap2010:WorkflowViewState.IdRef="VisualBasicValue`1_1" />
                                   </While.Condition>
-                                  <Sequence sap:VirtualizedContainerService.HintSize="560.8,1023.2" sap2010:WorkflowViewState.IdRef="Sequence_44">
+                                  <Sequence sap:VirtualizedContainerService.HintSize="560.8,920.8" sap2010:WorkflowViewState.IdRef="Sequence_44">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -412,7 +412,6 @@
                                         </Sequence>
                                       </If.Else>
                                     </If>
-                                    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="519.2,62.4" sap2010:WorkflowViewState.IdRef="WriteLine_5" Text="[innerResultStr +&quot;---&gt;&quot; +innerLoopCount.ToString]" />
                                     <Assign sap:VirtualizedContainerService.HintSize="519.2,60" sap2010:WorkflowViewState.IdRef="Assign_13">
                                       <Assign.To>
                                         <OutArgument x:TypeArguments="x:Int32">[innerLoopCount]</OutArgument>
